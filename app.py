@@ -97,7 +97,7 @@ resposta_risco_padrao = ( "Sinto muito que você esteja passando por um momento 
 def init_model():
     try:
         model = genai.GenerativeModel(
-            "gemini-1.5-pro-latest",
+            "Gemini 2.0 Flash-Lite",
             generation_config=generation_config,
             safety_settings=safety_settings,
             system_instruction=system_instruction # A personalidade refinada da SophIA é passada aqui
